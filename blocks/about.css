@@ -1,3 +1,16 @@
+@keyframes pulsate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.3);
+  }
+}
+
 .about {
   background-color: #0a2750;
   color: #ffffff;
@@ -47,7 +60,7 @@
   z-index: 0;
 }
 
-.about__circle_animation-blurred {
+.about__circle_animation_blurred {
   background-color: #2f80ed;
   position: absolute;
   top: -152px;
@@ -55,6 +68,6 @@
   width: 426px;
   height: 426px;
   border-radius: 50%;
-  animation: pulsate 1s ease-in-out 0s infinite alternate forwards;
+  animation: pulsate 2s ease-in-out 0s infinite forwards;
   z-index: 0;
 }
