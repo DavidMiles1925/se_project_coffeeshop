@@ -17,7 +17,7 @@
 .recipes__subtitle {
   max-width: 438px;
   margin: 24px 0 0;
-  font-family: "Noto Serrif", Arial, Serif;
+  font-family: "Noto Serrif", Arial, serif;
   font-size: 20px;
   line-height: 30px;
 }
@@ -42,7 +42,6 @@
   border: none;
   margin: 0;
   max-width: 480px;
-  flex-basis: 100%;
   display: flex;
   flex-basis: calc(50% - 40px);
   height: 273px;
