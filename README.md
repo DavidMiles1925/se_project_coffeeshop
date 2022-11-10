@@ -13,4 +13,6 @@ This is the second project of the Web Development program at Practicum. It was c
 
 ## Plan on improving the project
 
-Add your ideas here :)
+- Make changes suggested by a code editor will be implemented after project submission.
+- Custom recipe videos.
+- Descriptions of each menu item.
