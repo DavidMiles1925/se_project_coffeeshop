@@ -35,7 +35,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   column-gap: 40px;
-  flex-shrink: 1;
+  flex: 1 1 initial;
 }
 
 .recipes__video {
