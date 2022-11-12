@@ -19,6 +19,7 @@
   flex-direction: row;
   justify-content: space-between;
   position: relative;
+  overflow: hidden;
 }
 
 .about__title {
@@ -34,11 +35,10 @@
 .about__content {
   max-width: 660px;
   margin: 19px 0 0;
-  font-family: "Noto Serrif", Arial, serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
   color: #ffffff;
-  position: relative;
 }
 
 .about__paragraph {
@@ -60,14 +60,6 @@
   z-index: 0;
 }
 
-.about__circle-animation-blurred {
-  background-color: #2f80ed;
-  position: absolute;
-  top: -152px;
-  left: -129px;
-  width: 426px;
-  height: 426px;
-  border-radius: 50%;
+.about__circle_animation_blurred {
   animation: pulsate 2s ease-in-out 0s infinite forwards;
-  z-index: 0;
 }

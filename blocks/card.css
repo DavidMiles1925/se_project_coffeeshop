@@ -25,24 +25,15 @@
   list-style-type: none;
   margin-top: 16px;
   margin-bottom: 0;
-  font-family: "Noto Serrif", Arial, serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 16px;
   line-height: 20px;
   display: flex;
   flex-wrap: nowrap;
 }
 
-.card__list-item:first-of-type {
-  margin-top: 32px;
-}
-
-.card__text {
-  margin: 0;
-}
-
 .card__list-divider {
-  margin: 0;
-  line-height: 8px;
+  margin: 0 12px;
   border-bottom: 2px solid #ffffff;
   flex-grow: 1;
 }

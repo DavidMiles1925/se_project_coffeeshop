@@ -8,11 +8,10 @@
 
 .footer__content {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .footer__logo {
-  margin: 0;
   width: 116px;
   height: 21px;
 }
@@ -20,7 +19,7 @@
 .footer__list {
   list-style-type: none;
   padding: 0;
-  margin: 0 0 0 auto;
+  margin: 0;
 }
 
 .footer__social-heading {

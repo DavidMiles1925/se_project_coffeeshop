@@ -1,5 +1,6 @@
 .form {
   max-width: 385px;
+  width: 100%;
   font-size: 20px;
   line-height: 30px;
   color: #838383;
@@ -26,6 +27,11 @@
   align-items: center;
 }
 
+/*Did not use ":first-of-type" to preserve checkbox margin.*/
+.form__label_type_first {
+  margin: 0;
+}
+
 .form__label_type_checkbox {
   margin-top: 32px;
   margin-bottom: 0;
@@ -38,9 +44,10 @@
 }
 
 .form__input {
+  box-sizing: border-box;
   max-width: 385px;
   margin: 8px 0 0;
-  padding: 0;
+  padding: 0 12px;
   flex-grow: 1;
   height: 60px;
   border-radius: 4px;
@@ -50,6 +57,8 @@
   background-color: #2f80ed;
   height: 60px;
   margin-top: 32px;
+  border: none;
+  padding: 0;
   border-radius: 4px;
   color: #ffffff;
   font-weight: 500;

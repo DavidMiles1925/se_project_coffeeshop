@@ -12,7 +12,3 @@
 @import url(../blocks/form.css);
 @import url(../blocks/about.css);
 @import url(../blocks/footer.css);
-/*Inter: use Arial as a fallback and use the generic sans-serif family in case the user doesn’t have either*/
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
-/*Noto:  use Times New Roman as a fallback and use the generic serif family in case the user doesn't have either*/
-@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
