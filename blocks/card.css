@@ -4,11 +4,6 @@
   flex-grow: 1;
 }
 
-.card:last-of-type {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .card__title {
   margin: 0;
   font-weight: bold;
@@ -30,6 +25,10 @@
   line-height: 20px;
   display: flex;
   flex-wrap: nowrap;
+}
+
+.card__list-item:first-of-type {
+  margin-top: 32px;
 }
 
 .card__list-divider {
