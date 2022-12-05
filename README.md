@@ -33,7 +33,7 @@ This is the second project of the Web Development program at Practicum. It was c
   - Animation to show the heartbeat of the coffee shop:
     - ![Animation](./images/readme_animation.png)
     
-https://davidmiles1925.github.io/se_project_aroundtheus/
+https://davidmiles1925.github.io/se_project_coffeeshop/
 
 ## Plan on improving the project
 
