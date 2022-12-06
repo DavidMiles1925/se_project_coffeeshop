@@ -39,6 +39,7 @@
   font-size: 20px;
   line-height: 30px;
   color: #ffffff;
+  z-index: 1;
 }
 
 .about__paragraph {
@@ -62,4 +63,18 @@
 
 .about__circle_animation_blurred {
   animation: pulsate 2s ease-in-out 0s infinite forwards;
+}
+
+@media screen and (max-width: 1200px) {
+  .about {
+    flex-direction: column;
+    padding: 60px 40px 100px;
+  }
+
+  .about__title {
+    max-width: 251px;
+    font-size: 36px;
+    line-height: 40px;
+    margin-bottom: 50px;
+  }
 }

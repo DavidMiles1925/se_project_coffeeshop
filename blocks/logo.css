@@ -4,3 +4,16 @@
   max-width: 125px;
   max-height: 142px;
 }
+
+@media screen and (max-width: 766px) {
+  .logo {
+    max-width: 100px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .logo {
+    max-width: 80px;
+    top: 60px;
+  }
+}

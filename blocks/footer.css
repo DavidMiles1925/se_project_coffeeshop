@@ -66,3 +66,19 @@
 .footer__copyright {
   margin: 108px 0 0;
 }
+
+@media screen and (max-width: 424px) {
+  .footer {
+    padding: 60px 20px 60px 20px;
+  }
+
+  .footer__logo {
+    width: 86px;
+    height: 15px;
+  }
+
+  .footer__copyright {
+    margin: 54px 0 0;
+    font-size: 12px;
+  }
+}

@@ -23,3 +23,15 @@
 .nav__link:hover {
   color: #2f80ed;
 }
+
+@media screen and (max-width: 766px) {
+  .nav__links {
+    column-gap: 12px;
+  }
+
+  .nav__link {
+    font-size: 10px;
+    line-height: 1.2em;
+    text-decoration: none;
+  }
+}
